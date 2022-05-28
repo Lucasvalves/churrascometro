@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background-size: cover;
+    background-image: url(../images/churrasBackground.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+h1{
+
+    color: #0b090a;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", sans-serif;
+    font-size: 27px;
+
+}
+.container{
+
+    font-family: "Arial, Helvetica, sans-serif";
+    max-width: 300px;
+    margin: auto;
+    background-color: #dc2e02be;
+    padding: 40px;
+    border-radius: 10px;
+    
+     
+
+}
+h6{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #161a1d;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #161a1d;
+}
+input{
+
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+button{
+    
+    font-size: 15px;
+    background-color: #55a630;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 10px;
+    box-shadow:  0  10px 10px rgba(0,0,0,0.19);
+    margin-left: 70px;
+    font-weight: bold;
+    
+    
+ 
+}
+button:hover{
+
+    background-color: #80b918;
+    color: #f3faf7;
+    
+}
